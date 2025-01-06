@@ -1,0 +1,9 @@
+@EstoqueOnline.API_HostAddress = http://localhost:5065
+
+GET {{EstoqueOnline.API_HostAddress}}/api/Estoque/ping
+Accept: application/json
+###
+POST {{EstoqueOnline.API_HostAddress}}/api/Estoque?userId=123feswe2
+Accept: application/json
+Content-Type: application/json
+"Avenida Salamandra 1234"
